@@ -16,9 +16,4 @@ public class Specification {
     private Integer specificationId;
     private String specificationName;
     private String specificationValue;
-    private String specificationImg;
-    private Double specificationCostPrice;//成本价
-    private Double specificationSupplyPrice;//供货价
-    private Double specificationSellingPrice;//建议售价
-    private Integer specificationRepertory;//库存
 }

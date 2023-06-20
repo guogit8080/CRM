@@ -12,4 +12,8 @@ import lombok.NoArgsConstructor;
 public class ShopSpacification {
     private Integer shopId;
     private Integer specificationId;
+    private Double specificationCostPrice;//成本价
+    private Double specificationSupplyPrice;//供货价
+    private Double specificationSellingPrice;//建议售价
+    private Integer specificationRepertory;//库存
 }
